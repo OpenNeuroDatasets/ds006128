@@ -4,13 +4,14 @@ Susanne Stoll, Falk Luesebrink, D. Samuel Schwarzkopf, Hendrik Mattern, Peng Liu
 
 ---
 
-This archive contains
+This repository contains
 
 - data as reported in our manuscript, which is available as a [preprint]().
 - data not presented in our manuscript but related to it, such as fMRI data that were not smoothed or goodness-of-fit values that were statistically adjusted for model complexity and not via a cross-validation procedure.
 
 Please report any issues by sending an email to stollsus@gmail.com. Thank you!
 
+For further information, please refer to our [osf](https://doi.org/10.17605/OSF.IO/4DRZ6) repository.
 
 ---
 
@@ -193,13 +194,13 @@ The list below focuses on 'sub-01', 'ses-01', 'run-01', and 'job0'. The director
 
 ### Layers beyond the root directory — derivatives (FreeSurfer)
 
-The derivatives ([FreeSurfer](https://surfer.nmr.mgh.harvard.edu/)) directory contains data resulting from preprocessing steps 10 to 11 and 19 to 20 (see manuscript).
+The derivatives ([FreeSurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/DownloadAndInstall)) directory contains data resulting from preprocessing steps 10 to 11 and 19 to 20 (see manuscript).
 
 ---
 
 #### derivatives/FreeSurfer/fsaverage
 
-- **label**, **mri**, **mri.2mm**, **scripts**, **surf**, and **xhemi**: Subfolders that contain [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/)'s average template brain data.
+- **label**, **mri**, **mri.2mm**, **scripts**, **surf**, and **xhemi**: Subfolders that contain [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/DownloadAndInstall)'s average template brain data.
 
 ---
 
@@ -207,7 +208,7 @@ The derivatives ([FreeSurfer](https://surfer.nmr.mgh.harvard.edu/)) directory co
 
 The list below focuses on 'sub-01'. The directory structures and files for the remaining subjects ('sub-02' to 'sub-03') are equivalent.
 
-- **label**, **mri**, **scripts**, **stats**, **surf**, **tmp**, **touch**, and **trash**: Subfolders that contain [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/)'s reconstruction outputs for subject 01 including the anatomical cortical surface model for the left and right brain hemisphere.
+- **label**, **mri**, **scripts**, **stats**, **surf**, **tmp**, **touch**, and **trash**: Subfolders that contain [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/DownloadAndInstall)'s reconstruction outputs for subject 01 including the anatomical cortical surface model for the left and right brain hemisphere.
 
 ---
 
@@ -215,7 +216,7 @@ The list below focuses on 'sub-01'. The directory structures and files for the r
 
 The list below focuses on 'sub-01' and 'rh'. The directory structures and files for the remaining subjects ('sub-02' to 'sub-03') and brain hemispheres ('lh') are equivalent.
 
-- **rh.\*.label**: Anatomical [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/) labels including _rh.postcentral.label_ from the gyral-based Desikan-Killiany cortical atlas for the right brain hemisphere of subject 01.
+- **rh.\*.label**: Anatomical [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/DownloadAndInstall/) labels including _rh.postcentral.label_ from the gyral-based Desikan-Killiany cortical atlas for the right brain hemisphere of subject 01.
 
 ---
 
@@ -243,7 +244,7 @@ The list below focuses on 'sub-01', 'ses-01', 'run-01', 'FWHM-1', and 'rh'. The 
 
 ### Layers beyond the root directory — derivatives (SamSrf)
 
-The derivatives ([SamSrf](https://github.com/samsrf/samsrf)) directory contains data resulting from preprocessing steps 12, 21 to 22, and any analyses performed thereafter (see manuscript).
+The derivatives ([SamSrf](https://github.com/samsrf/samsrf/tree/4de3223950fc4cb995941b2041e2dcc73bb9bbd4)) directory contains data resulting from preprocessing steps 12, 21 to 22, and any analyses performed thereafter (see manuscript).
 
 ---
 
@@ -251,7 +252,7 @@ The derivatives ([SamSrf](https://github.com/samsrf/samsrf)) directory contains 
 
 The list below focuses on 'sub-01' and 'rh'. The directory structures and files for the remaining subjects ('sub-02' to 'sub-03') and brain hemispheres ('lh') are equivalent.
 
-- **rh_surf.mat**: File that contains subset of reconstructed surfaces (as stored in _derivatives/FreeSurfer/sub-01/surf_) for the right brain hemisphere of subject 01, converted to [SamSrf](https://github.com/samsrf/samsrf) MAT format.
+- **rh_surf.mat**: File that contains subset of reconstructed surfaces (as stored in _derivatives/FreeSurfer/sub-01/surf_) for the right brain hemisphere of subject 01, converted to [SamSrf](https://github.com/samsrf/samsrf/tree/4de3223950fc4cb995941b2041e2dcc73bb9bbd4) MAT format.
 
 ---
 
@@ -269,17 +270,17 @@ The list below focuses on 'sub-01'. The directory structures and files for the r
 
 The list below focuses on 'sub-01', 'ses-01', 'run-01' or 'run-all', 'FWHM-1', and 'rh'. The directory structures and files for the remaining subjects ('sub-02' to 'sub-03'), sessions ('ses-02' to 'ses-04'), runs ('run-02' to 'run-10'), surface smoothing kernel widths ('FWHM-0'), and brain hemispheres ('lh') are equivalent, if not indicated otherwise.
 
-- **rh_sub-01_ses-01_task-pRF_run-01_FWHM-1_BBR_mgh2srf.mat**: Like _rh_sub-01_ses-01_task-pRF_run-01_bold_registered_to_sub-01_ses-all_T1w_downsampled_biasCorrected_template0_FWHM-1_BBR.mgh_, but converted to [SamSrf](https://github.com/samsrf/samsrf) MAT format, linearly detrended, and _z_-standardized.
+- **rh_sub-01_ses-01_task-pRF_run-01_FWHM-1_BBR_mgh2srf.mat**: Like _rh_sub-01_ses-01_task-pRF_run-01_bold_registered_to_sub-01_ses-all_T1w_downsampled_biasCorrected_template0_FWHM-1_BBR.mgh_, but converted to [SamSrf](https://github.com/samsrf/samsrf/tree/4de3223950fc4cb995941b2041e2dcc73bb9bbd4) MAT format, linearly detrended, and _z_-standardized.
 
 - **rh_sub-01_ses-01_task-pRF_run-all_FWHM-1_BBR_mgh2srf_mean.mat**: Like _rh_sub-01_ses-01_task-pRF_run-01_FWHM-1_BBR_mgh2srf.mat_, but contains the mean calculated across all runs in session 01. The mean is based on _rh_sub-01_ses-01_task-pRF_run-[01-10]\_bold_registered_to_sub-01_ses-all_T1w_downsampled_biasCorrected_template0_FWHM-1_BBR.mgh_.
 
 - **rh_sub-01_ses-01_task-pRF_run-all_FWHM-1_BBR_mgh2srf_spmcan_glm_conts.mat**: File that contains the _t_-statistic map for the contrast stimulation vs baseline (rest) calculated based on _rh_sub-01_ses-01_task-pRF_run-all_FWHM-1_BBR_mgh2srf_spmcan_glm.mat_.
 
-- **rh_sub-01_ses-01_task-pRF_run-all_FWHM-1_BBR_mgh2srf_spmcan_glm.mat**: File that contains the beta estimates and residuals of the general linear model analysis performed across all runs in session 01 and using [SPM12](https://www.fil.ion.ucl.ac.uk/spm/)'s canonical HRF. The beta estimates and residuals are based on _rh_sub-01_ses-01_task-pRF_run-[01-10]\_FWHM-1_BBR_mgh2srf.mat_.
+- **rh_sub-01_ses-01_task-pRF_run-all_FWHM-1_BBR_mgh2srf_spmcan_glm.mat**: File that contains the beta estimates and residuals of the general linear model analysis performed across all runs in session 01 and using [SPM12](https://www.fil.ion.ucl.ac.uk/spm/software/spm12/)'s canonical HRF. The beta estimates and residuals are based on _rh_sub-01_ses-01_task-pRF_run-[01-10]\_FWHM-1_BBR_mgh2srf.mat_.
 
 - **del_rh_sub-01_ses-01_task-pRF_run-all_FWHM-1_BBR_mgh2srf_mean.mat** (only present for 'ses-01', 'rh', and 'FWHM-1'): File that contains the manual delineation for the identified fingertip cluster. The delineation was initialized using _rh_sub-01_ses-01_task-pRF_run-all_FWHM-1_BBR_mgh2srf_mean.mat_ (ergo the file name), but is based on _rh_sub-01_ses-01_task-pRF_run-all_FWHM-1_BBR_mgh2srf_spmcan_glm_conts.mat_.
 
-- **ROIs_sub-01_ses-01_task-pRF_run-all_FWHM-1_BBR_mgh2srf_mean/rh_D2a.label** (only present for 'ses-01', 'rh', and 'FWHM-1'): File in subfolder that contains a [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/)-compatible label called 'D2a' reflecting the delineation stored in _del_rh_sub-01_ses-01_task-pRF_run-all_FWHM-1_BBR_mgh2srf_mean.mat_.
+- **ROIs_sub-01_ses-01_task-pRF_run-all_FWHM-1_BBR_mgh2srf_mean/rh_D2a.label** (only present for 'ses-01', 'rh', and 'FWHM-1'): File in subfolder that contains a [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/DownloadAndInstall)-compatible label called 'D2a' reflecting the delineation stored in _del_rh_sub-01_ses-01_task-pRF_run-all_FWHM-1_BBR_mgh2srf_mean.mat_.
 
 ---
 
@@ -288,7 +289,7 @@ The list below focuses on 'sub-01', 'ses-01', 'run-01' or 'run-all', 'FWHM-1', a
 The list below focuses on 'sub-01', 'FWHM-1', and 'rh'. The directory structures and files for the remaining subjects ('sub-02' to 'sub-03'), surface smoothing kernel widths ('FWHM-0'), and brain hemispheres ('lh') are equivalent, if not indicated otherwise.
 
 - **rh_sub-01_ses-02+03+04_task-prf_run-all_FWHM-1_BBR_mgh2srf_mean_2dg_aperture-pins_vec_spmcan_CrsFit.mat** (only present for 'FWHM-1' and 'rh'): File that contains results from the coarse fitting procedure (i.e., constrained grid search fit) for the 2dg model. The fitting was performed using  
-  _rh_sub-01_ses-02+03+04_task-prf_run-all_FWHM-1_BBR_mgh2srf_mean.mat_, the vectorized aperture (see _sub-01_task-prf_aperture-pins_vec.mat_), and [SPM 12](https://www.fil.ion.ucl.ac.uk/spm/)'s canonical HRF.
+  _rh_sub-01_ses-02+03+04_task-prf_run-all_FWHM-1_BBR_mgh2srf_mean.mat_, the vectorized aperture (see _sub-01_task-prf_aperture-pins_vec.mat_), and [SPM 12](https://www.fil.ion.ucl.ac.uk/spm/software/spm12/)'s canonical HRF.
 
 
 - **rh_sub-01_ses-02+03+04_task-prf_run-all_FWHM-1_BBR_mgh2srf_mean_2dg_aperture-pins_vec_spmcan_FneFit.mat** (only present for 'FWHM-1' and 'rh'): Like _rh_sub-01_ses-02+03+04_task-prf_run-all_FWHM-1_BBR_mgh2srf_mean_2dg_aperture-pins_vec_spmcan_CrsFit.mat_, but contains results from the fine fitting procedure (i.e., unconstrained optimization procedure).
@@ -337,13 +338,13 @@ The list below focuses on 'sub-01', 'FWHM-1', and 'rh'. The directory structures
 
 The list below comprises data simulated using the 2dg model where pRF size was varied. This allowed us to investigate the implausibility of pRF estimates when fitting a 2dg model with unconstrained optimization to the data (see manuscript).
 
-- **sim_ses-all_task-prf_nrep-100000_sd-2_2dg_aperture-pins_vec_spmcan_sgrid-mix_2dg_aperture-pins_vec_spmcan_CrsFit.mat**: File that contains results from the coarse fitting procedure (i.e., constrained grid search fit) for the 2dg model. The fitting was performed using _sim_ses-all_task-prf_nrep-100000_sd-2_2dg_aperture-pins_vec_spmcan_sgrid-mix.mat_, the vectorized aperture (see _sub-01_task-prf_aperture-pins_vec.mat_), and [SPM 12](https://www.fil.ion.ucl.ac.uk/spm/)'s canonical HRF.
+- **sim_ses-all_task-prf_nrep-100000_sd-2_2dg_aperture-pins_vec_spmcan_sgrid-mix_2dg_aperture-pins_vec_spmcan_CrsFit.mat**: File that contains results from the coarse fitting procedure (i.e., constrained grid search fit) for the 2dg model. The fitting was performed using _sim_ses-all_task-prf_nrep-100000_sd-2_2dg_aperture-pins_vec_spmcan_sgrid-mix.mat_, the vectorized aperture (see _sub-01_task-prf_aperture-pins_vec.mat_), and [SPM 12](https://www.fil.ion.ucl.ac.uk/spm/software/spm12/)'s canonical HRF.
 
 - **sim_ses-all_task-prf_nrep-100000_sd-2_2dg_aperture-pins_vec_spmcan_sgrid-mix_2dg_aperture-pins_vec_spmcan_FneFit.mat**: Like _sim_ses-all_task-prf_nrep-100000_sd-2_2dg_aperture-pins_vec_spmcan_sgrid-mix_2dg_aperture-pins_vec_spmcan_CrsFit.mat_, but contains results from the fine fitting procedure (i.e., unconstrained optimization procedure).
 
 - **sim_ses-all_task-prf_nrep-100000_sd-2_2dg_aperture-pins_vec_spmcan_sgrid-mix_2dg_aperture-pins_vec_spmcan_FneFit_sumstats.mat**: File that contains summary statistics associated with _sim_ses-all_task-prf_nrep-100000_sd-2_2dg_aperture-pins_vec_spmcan_sgrid-mix_2dg_aperture-pins_vec_spmcan_FneFit.mat_.
 
-- **sim_ses-all_task-prf_nrep-100000_sd-2_2dg_aperture-pins_vec_spmcan_sgrid-mix.mat**: File that contains a full simulated data set (called 'ses-all' for consistency with empirical data) for the spatio-tactile pRF mapping task. This simulation is based on 100000 repeats (i.e., 100000 occurrences), a standard deviation for the noise of 2, the 2dg model, the vectorized aperture (see _sub-01_task-prf_aperture-pins_vec.mat_), [SPM 12](https://www.fil.ion.ucl.ac.uk/spm/)'s canonical HRF, and simulated pRFs that match and mismatch the search grid used for the coarse fitting procedure (i.e., constrained grid search fit).
+- **sim_ses-all_task-prf_nrep-100000_sd-2_2dg_aperture-pins_vec_spmcan_sgrid-mix.mat**: File that contains a full simulated data set (called 'ses-all' for consistency with empirical data) for the spatio-tactile pRF mapping task. This simulation is based on 100000 repeats (i.e., 100000 occurrences), a standard deviation for the noise of 2, the 2dg model, the vectorized aperture (see _sub-01_task-prf_aperture-pins_vec.mat_), [SPM 12](https://www.fil.ion.ucl.ac.uk/spm/software/spm12/)'s canonical HRF, and simulated pRFs that match and mismatch the search grid used for the coarse fitting procedure (i.e., constrained grid search fit).
 
 - **sim_ses-all_task-prf_nrep-1_sd-0_2dg_aperture-pins_vec_spmcan_sgrid-mix_2dg_aperture-pins_vec_spmcan_CrsFit.mat**: Like _sim_ses-all_task-prf_nrep-100000_sd-2_2dg_aperture-pins_vec_spmcan_sgrid-mix_2dg_aperture-pins_vec_spmcan_CrsFit.mat_, but the coarse fitting procedure (i.e., constrained grid search fit) was performed using _sim_ses-all_task-prf_nrep-1_sd-0_2dg_aperture-pins_vec_spmcan_sgrid-mix.mat_.
 
@@ -401,7 +402,7 @@ The derivatives (results) directory contains visualizations of the information p
 
 ### derivatives/results/colormaps
 
-- **colormap-generic.pdf**: File that displays [SamSrf](<(https://github.com/samsrf/samsrf)>)'s generic colormap.
+- **colormap-generic.pdf**: File that displays [SamSrf](https://github.com/samsrf/samsrf/tree/4de3223950fc4cb995941b2041e2dcc73bb9bbd4)'s generic colormap.
 
 ---
 
