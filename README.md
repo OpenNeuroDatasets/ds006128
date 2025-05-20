@@ -11,7 +11,7 @@ This repository contains
 
 Please report any issues by sending an email to stollsus@gmail.com. Thank you!
 
-For further information, please refer to our [osf](https://doi.org/10.17605/OSF.IO/4DRZ6) repository.
+For further information, please refer to our [OSF](https://doi.org/10.17605/OSF.IO/4DRZ6) repository.
 
 ---
 
