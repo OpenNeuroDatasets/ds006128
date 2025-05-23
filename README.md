@@ -67,7 +67,7 @@ For further information, please refer to our [OSF](https://doi.org/10.17605/OSF.
 
 ---
 
-The raw data directory contains data resulting from preprocessing step 3 (see manuscript).
+The raw data directory contains data resulting from preprocessing step 2 (see manuscript).
 
 #### sub-01/ses-01/anat
 
@@ -111,7 +111,7 @@ The list below focuses on 'sub-01' and 'ses-01+02'. The directory structures and
 
 ### Layers beyond the root directory — derivatives (root)
 
-The derivatives (root) directory contains data resulting from preprocessing steps 4 to 9 and 12 to 18 (see manuscript).
+The derivatives (root) directory contains data resulting from preprocessing steps 3 to 8 and 11 to 16 (see manuscript).
 
 ---
 
@@ -194,7 +194,7 @@ The list below focuses on 'sub-01', 'ses-01', 'run-01', and 'job0'. The director
 
 ### Layers beyond the root directory — derivatives (FreeSurfer)
 
-The derivatives ([FreeSurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/DownloadAndInstall)) directory contains data resulting from preprocessing steps 10 to 11 and 19 (see manuscript).
+The derivatives ([FreeSurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/DownloadAndInstall)) directory contains data resulting from preprocessing steps 9 to 10 and 17 to 18 (see manuscript).
 
 ---
 
@@ -244,7 +244,7 @@ The list below focuses on 'sub-01', 'ses-01', 'run-01', 'FWHM-1', and 'rh'. The 
 
 ### Layers beyond the root directory — derivatives (SamSrf)
 
-The derivatives ([SamSrf](https://github.com/samsrf/samsrf/tree/4de3223950fc4cb995941b2041e2dcc73bb9bbd4)) directory contains data resulting from preprocessing steps 20 to 21, and any analyses performed thereafter (see manuscript).
+The derivatives ([SamSrf](https://github.com/samsrf/samsrf/tree/4de3223950fc4cb995941b2041e2dcc73bb9bbd4)) directory contains data resulting from preprocessing steps 19 to 20, and any analyses performed thereafter (see manuscript).
 
 ---
 
