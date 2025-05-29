@@ -6,7 +6,7 @@ Susanne Stoll, Falk Luesebrink, D. Samuel Schwarzkopf, Hendrik Mattern, Peng Liu
 
 This repository contains
 
-- data as reported in our manuscript, which is available as a [preprint]().
+- data as reported in our manuscript, which is available as a [preprint](https://doi.org/10.1101/2025.05.24.655840).
 - data not presented in our manuscript but related to it, such as fMRI data that were not smoothed or goodness-of-fit values that were statistically adjusted for model complexity and not via a cross-validation procedure.
 
 Please report any issues by sending an email to stollsus@gmail.com. Thank you!
@@ -20,7 +20,6 @@ For further information, please refer to our [OSF](https://doi.org/10.17605/OSF.
 ### TODO
 
 - Annotate files with [...] flag.
-- Add link to preprint. 
 
 ---
 
