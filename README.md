@@ -19,6 +19,7 @@ For further information, please refer to our [OSF](https://doi.org/10.17605/OSF.
 
 ### TODO
 
+- Annotate novel .label and .png files (revision 1)
 - Annotate files with [...] flag.
 
 ---
